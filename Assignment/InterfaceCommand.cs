@@ -11,12 +11,12 @@
         public void Run(Robot robot) => robot.IsPowered = false;
     }
 
-     public class OnCommand : IRobotCommand
+    public class OnCommand : IRobotCommand
     {
         public void Run(Robot robot) => robot.IsPowered = true;
     }
 
-     public class WestCommand : IRobotCommand
+    public class WestCommand : IRobotCommand
     {
         public void Run(Robot robot)
         {
@@ -25,7 +25,7 @@
         }
     }
 
-     public class EastCommand : IRobotCommand
+    public class EastCommand : IRobotCommand
     {
         public void Run(Robot robot)
         {
@@ -34,7 +34,7 @@
         }
     }
 
-     public class SouthCommand : IRobotCommand
+    public class SouthCommand : IRobotCommand
     {
         public void Run(Robot robot)
         {
@@ -43,7 +43,7 @@
         }
     }
 
-     public class NorthCommand : IRobotCommand
+    public class NorthCommand : IRobotCommand
     {
         public void Run(Robot robot)
         {
