@@ -44,6 +44,9 @@ After each command execution, the program will display the current state of the 
 Once you enter "Done", the program will stop accepting input, and the final position of the robot will be displayed.
 
 You can repeat the process by running the program again and entering new command strings to control the robot.
+        
+# output Screenshot
+![output](output.png)
 
 [Assignment Instructions](docs/instructions.md)  
 [How to start coding](docs/how-to-use.md)  
